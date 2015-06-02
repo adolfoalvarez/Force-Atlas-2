@@ -12,7 +12,7 @@ This is not a package yet, so you should download the "ForceAtlas2.R" file and s
 
 # Usage
  ```R
-    library(gephi)
+    library(igraph)
     g <- graph.ring(100)
     layout.forceatlas2(g, iterations=10000, plotstep=500)
   ```
