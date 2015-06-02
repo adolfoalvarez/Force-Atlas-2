@@ -17,6 +17,10 @@ This is not a package yet, so you should download the "ForceAtlas2.R" file and s
     layout.forceatlas2(g, iterations=10000, plotstep=500)
   ```
 
+# Disclaimer
+
+This function is currently under development, use it at your own risk. Is written in R not in C++ as the igraph package so it can be slow compared to other layouts.
+
 # Authors
 
 - Bazyli Klockiewicz (bazyli.klockiewicz@analyx.com)
